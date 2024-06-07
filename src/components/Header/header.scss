@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: royalblue;
+    background-color: #eee;
+    nav{
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                color: black;
+                margin: 0 10px;
+            }
+        }
+    }
+}
