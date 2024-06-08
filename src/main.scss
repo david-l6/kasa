@@ -1,8 +1,9 @@
-@use "./scss/variables.scss";
-@use "./scss/mixins.scss";
-@use "./components/Header/Header.scss";
-@use "./components/Footer/Footer.scss";
-@use "./pages/Home/Home.scss";
-@use "./pages/Accommodation/Accommodation.scss";
-@use "./pages/About/About.scss";
-@use "./pages/NotFound/notfound.scss"
+@import "./scss/utils/variables";
+@import "./scss/utils/mixins";
+@import "./scss/utils/reset";
+@import "./scss/header";
+@import "./scss/footer";
+@import "./scss/home";
+@import "./scss/accommodation";
+@import "./scss/about";
+@import "./scss/notfound";

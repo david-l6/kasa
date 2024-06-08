@@ -1,10 +1,10 @@
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Logement from "./pages/Accommodation/Accommodation";
-import About from "./pages/About/About";
-import NotFound from "./pages/NotFound/NotFound";
+import Home from "./pages/Home";
+import Logement from "./pages/Accommodation";
+import About from "./pages/About";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -18,5 +18,5 @@ export default function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
-  )
+  );
 }
