@@ -1,12 +1,13 @@
 import landscapeAbout from "../assets/images/landscape_about.jpeg";
+import Banner from "../components/Banner";
 
 export default function About() {
   return (
     <div className="about">
-      <div className="banner">
-        <img src={landscapeAbout} alt="photo d'un paysage montagneux" />
+      <div className="about_banner">
+        <Banner image={landscapeAbout} alt="Paysage" />
       </div>
-      <div className="contentWrapper">
+      <div className="about_content-wrapper">
         
       </div>
     </div>
