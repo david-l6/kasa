@@ -1,7 +1,7 @@
 export default function Accommodation() {
   return (
-    <div>
+    <main>
       <h1>Accommodation</h1>
-    </div>
+    </main>
   );
 }
