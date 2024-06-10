@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import arrow from "../assets/images/arrow.svg";
 
-export default function Collapse({ title, content }) {
+export default function Collapse({ title, children }) {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   const toggleCollapse = () => {
@@ -19,14 +19,14 @@ export default function Collapse({ title, content }) {
           className={isCollapsed ? 'collapsed' : 'expanded'} 
         />
       </div>
-      <p className={`collapse_content ${isCollapsed ? '' : 'show'}`}>
-        {content}
-      </p>
+      <div className={`collapse_content ${isCollapsed ? '' : 'show'}`}>
+        {children}
+      </div>
     </div>
   );
 }
 
 Collapse.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };

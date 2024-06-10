@@ -10,14 +10,11 @@ export default function About() {
         <Banner image={landscapeAbout} alt="Paysage" />
       </div>
       <div className="about_content">
-
-          {abouts.map((about, id) => (
-            <Collapse
-              key={id}
-              title={about.title}
-              content={about.content}
-            />
-          ))}
+        {abouts.map((about, id) => (
+          <Collapse key={id} title={about.title}>
+            {about.content}
+          </Collapse>
+        ))}
       </div>
     </main>
   );

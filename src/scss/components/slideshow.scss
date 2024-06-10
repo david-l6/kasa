@@ -1,0 +1,33 @@
+.slideshow{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  .slideshow_image {
+    height: 415px;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+  .arrowleft, .arrowright {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 47px;
+    cursor: pointer;
+  }
+  .arrowleft {
+    left: 10px;
+  }
+  .arrowright {
+    right: 10px;
+  }
+  p {
+    position: absolute;
+    bottom: 10px;
+    color: $primary-font-color;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

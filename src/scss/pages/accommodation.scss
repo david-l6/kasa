@@ -1,0 +1,33 @@
+.accommodation {
+  margin: 50px 100px;
+  &_head {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    &-title {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      h1 {
+        color: $secondary-font-color;
+        font-size: 36px;
+        font-weight: 500;
+      }
+      h2 {
+        color: $tertiary-font-color;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+  &_subhead {
+    display: flex;
+    justify-content: space-between;
+  }
+  &_content {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 76px;
+  }
+}
