@@ -1,0 +1,54 @@
+.collapse {
+
+    &_title {
+        background-color: $primary-color;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 0; // Ensure no margin when expanded
+
+        h2 {
+            color: $primary-font-color;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        img {
+            width: 24px;
+            transition: transform 0.3s ease;
+            &.collapsed {
+                transform: rotate(0deg);
+            }
+            &.expanded {
+                transform: rotate(-180deg);
+            }
+        }
+    }
+
+    &_content {
+        padding: 0 20px;
+        background-color: $components-background;
+        font-size: 18px;
+        font-weight: 400;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease, transform 0.3s ease, padding 0.3s ease, margin-top 0.3s ease;
+        position: relative;
+        z-index: 1;
+        transform: translateY(-100%);
+        margin-top: 0;
+
+        &.show {
+            padding: 20px;
+            max-height: 200px;
+            transform: translateY(0);
+            margin-top: -5px;
+        }
+    }
+}
