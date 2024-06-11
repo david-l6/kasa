@@ -15,3 +15,14 @@
         color: $primary-font-color;
     }
 }
+
+@media (max-width: 426px){
+    .footer{
+        gap: 20px;
+        p{
+            font-size: 12px;
+            text-align: center;
+            padding: 0 35%; 
+        }
+    }
+}

@@ -5,7 +5,7 @@ const Host = ({ host }) => {
 
   return (
     <div className="accommodation_head-host">
-      <div>
+      <div className="accommodation_host-name">
         <p>{firstName}</p>
         <p>{lastName}</p>
       </div>

@@ -4,7 +4,7 @@ const Tag = ({ tags }) => {
   return (
     <div className="accommodation_subhead-tag">
       {tags.map((tag, index) => (
-        <span key={index} className="tag">{tag}</span>
+        <h3 key={index} className="tag">{tag}</h3>
       ))}
     </div>
   );

@@ -32,3 +32,9 @@
         z-index: 2;
     }
 }
+
+@media (max-width: 426px){
+    .card{
+        height: 255px;
+    }
+}

@@ -28,12 +28,12 @@ export default function Accommodation() {
         <div className="accommodation_head-title">
           <h1>{accommodation.title}</h1>
           <h2>{accommodation.location}</h2>
+          <Tags tags={accommodation.tags} />
         </div>
-        <Host host={accommodation.host} />
-      </div>
-      <div className="accommodation_subhead">
-        <Tags tags={accommodation.tags} />
-        <Rate rating={parseFloat(accommodation.rating)} />
+        <div className="accommodation_head-info">
+          <Host host={accommodation.host} />
+          <Rate rating={parseFloat(accommodation.rating)} />
+        </div>
       </div>
       <div className="accommodation_content">
         <Collapse title="Description">{accommodation.description}</Collapse>

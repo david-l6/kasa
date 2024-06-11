@@ -21,3 +21,38 @@
     }
   }
 }
+
+@media (max-width: 426px){
+  .header {
+    margin: 20px 20px 27px 20px;
+    img{
+      width: 145px;
+    }
+    nav {
+      ul {
+        gap: 26px;
+        a {
+          text-transform: uppercase;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 351px){
+  .header {
+    img{
+      width: 135px;
+    }
+    nav {
+      ul {
+        gap: 12px;
+        a {
+          text-transform: uppercase;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}

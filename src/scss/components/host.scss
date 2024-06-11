@@ -1,16 +1,17 @@
 .accommodation_head-host {
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
   gap: 10px;
-  p {
-    color: $secondary-font-color;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: end;
-    br {
-      display: block;
-      margin: 5px 0;
-      content: "";
+  .accommodation_host-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    p {
+      color: $secondary-font-color;
+      font-size: 18px;
+      font-weight: 500;
+      text-align: end;
     }
   }
   img {

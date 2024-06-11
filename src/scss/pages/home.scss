@@ -34,3 +34,31 @@
         gap: 50px 60px;
     }
 }
+
+@media (max-width: 426px){
+    .home{
+        margin: 0 20px 27px 20px;
+        &_banner{
+
+            &-opacity{
+                border-radius: 10px;
+            }
+            h1{
+                left: 0;
+                transform: translate(0, -50%);
+                margin-left: 16px;
+                margin-right: 35%;
+                font-size: 24px;
+                text-align: start;
+            }
+        }
+
+        &_cards-container{
+            background-color: $background;
+            grid-template-columns: repeat(1, 1fr);
+            margin: 22px 0 27px 0;
+            padding: 0;
+            gap: 20px 0;
+        }
+    }
+}

@@ -8,7 +8,7 @@ const Rate = ({ rating }) => {
   const emptyStars = maxRating - fullStars;
 
   return (
-    <div className="accommodation_subhead-rate">
+    <div className="accommodation_head-rate">
       {Array(fullStars).fill().map((_, index) => (
         <img key={`full-${index}`} src={starFull} alt="Full Star" />
       ))}
