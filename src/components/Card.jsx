@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Card({ accommodations }) {
   return accommodations.map((accommodation) => (
     <NavLink
-      to={`/accommodations/${accommodation.id}`}
+      to={`/kasa/accommodations/${accommodation.id}`}
       className="card"
       key={accommodation.id}
     >
