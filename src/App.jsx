@@ -11,10 +11,10 @@ export default function App() {
     <HashRouter>
       <Header />
       <Routes>
-        <Route path="/kasa/" element={<Home />} />
-        <Route path="/kasa/accommodations/:id" element={<Accommodation />} />
-        <Route path="/kasa/about" element={<About />} />
-        <Route path="/kasa/*" element={<NotFound />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/accommodations/:id" element={<Accommodation />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
       <Footer />
     </HashRouter>
