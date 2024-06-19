@@ -11,7 +11,7 @@ export default function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/kasa/home" element={<Home />} />
+        <Route path="/kasa/" element={<Home />} />
         <Route path="/kasa/accommodations/:id" element={<Accommodation />} />
         <Route path="/kasa/about" element={<About />} />
         <Route path="/kasa/*" element={<NotFound />} />

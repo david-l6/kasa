@@ -8,7 +8,7 @@ export default function Header() {
       <nav>
         <ul>
           <NavLink
-            to="/kasa/home"
+            to="/kasa/"
             className={({ isActive }) => (isActive ? "underline" : "")}
           >
             <li>Accueil</li>
