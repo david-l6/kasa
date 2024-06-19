@@ -20,3 +20,21 @@
         color: $tertiary-font-color;
     }
 }
+
+@media (max-width: 426px) {
+    .notfound{
+        gap: 113px;
+        margin: 113px 0;
+        h1{
+            font-size: 96px;
+        }
+        p{
+            font-size: 18px;
+            text-align: center;
+            margin: 0 61px;
+        }
+        a{
+            font-size: 14px;
+        }
+    }
+}

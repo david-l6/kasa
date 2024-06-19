@@ -2,3 +2,12 @@
   display: flex;
   gap: 10px;
 }
+
+@media (max-width: 426px) {
+  .accommodation_head-rate {
+    gap: 5px;
+    img{
+      width: 13px;
+    }
+  }
+}

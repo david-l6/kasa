@@ -20,3 +20,19 @@
     border-radius: 50%;
   }
 }
+
+@media (max-width: 426px) {
+  .accommodation_head-host {
+    gap: 5px;
+    .accommodation_host-name {
+      gap: 3px;
+      p {
+        font-size: 12px;
+      }
+    }
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

@@ -50,11 +50,16 @@
         }
       }
       &-info {
+        flex-direction: row-reverse;
+        justify-content: space-between;
         gap: 10px;
+        margin-top: 16px;
       }
     }
     &_content {
+      margin-top: 13px;
       grid-template-columns: 1fr;
+      gap: 20px;
     }
   }
 }

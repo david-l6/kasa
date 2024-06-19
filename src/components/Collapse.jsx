@@ -19,7 +19,7 @@ export default function Collapse({ title, children }) {
           className={isCollapsed ? 'collapsed' : 'expanded'} 
         />
       </div>
-      <div className={`collapse_content ${isCollapsed ? '' : 'show'}`}>
+      <div className={`collapse_content ${isCollapsed ? 'collapsed' : 'expanded'}`}>
         {children}
       </div>
     </div>

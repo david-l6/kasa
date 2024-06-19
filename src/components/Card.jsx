@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 export default function Card({ accommodations }) {
   return accommodations.map((accommodation) => (
-    <Link
+    <NavLink
       to={`/accommodations/${accommodation.id}`}
       className="card"
       key={accommodation.id}
@@ -10,7 +10,7 @@ export default function Card({ accommodations }) {
       <img src={accommodation.cover} alt={accommodation.title} />
       <div className="shadow"></div>
       <h2>{accommodation.title}</h2>
-    </Link>
+    </NavLink>
   ));
 }
 
