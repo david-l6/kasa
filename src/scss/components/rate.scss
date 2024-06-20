@@ -3,7 +3,16 @@
   gap: 10px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1024px) {
+  .accommodation_head-rate {
+    gap: 8px;
+    img{
+      width: 19px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
   .accommodation_head-rate {
     gap: 5px;
     img{

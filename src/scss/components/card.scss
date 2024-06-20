@@ -33,7 +33,13 @@
     }
 }
 
-@media (max-width: 426px){
+@media (max-width: 1024px){
+    .card{
+        height: 298px;
+    }
+}
+
+@media (max-width: 425px){
     .card{
         height: 255px;
     }

@@ -21,7 +21,23 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1024px) {
+  .accommodation_head-host {
+    gap: 8px;
+    .accommodation_host-name {
+      gap: 4px;
+      p {
+        font-size: 15px;
+      }
+    }
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
   .accommodation_head-host {
     gap: 5px;
     .accommodation_host-name {

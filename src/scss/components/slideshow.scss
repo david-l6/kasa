@@ -33,7 +33,29 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1024px) {
+  .slideshow {
+    .slideshow_image {
+      height: 335px;
+      border-radius: 18px;
+    }
+    .arrowleft,
+    .arrowright {
+      width: 30px;
+    }
+    .arrowleft {
+      left: 8px;
+    }
+    .arrowright {
+      right: 8px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
   .slideshow {
     .slideshow_image {
       height: 255px;

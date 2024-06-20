@@ -35,15 +35,31 @@
     }
 }
 
-@media (max-width: 1025px){
-
+@media (max-width: 1024px){
+    .home{
+        margin: 0 60px 39px 60px;
+        &_banner{
+            &-opacity{
+                border-radius: 15px;
+            }
+            h1{
+                font-size: 36px;
+            }
+        }
+        &_cards-container{
+            background-color: $background;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 22px 0 27px 0;
+            padding: 15px;
+            gap: 30px;
+        }
+    }
 }
 
-@media (max-width: 426px){
+@media (max-width: 425px){
     .home{
         margin: 0 20px 27px 20px;
         &_banner{
-
             &-opacity{
                 border-radius: 10px;
             }
@@ -56,11 +72,9 @@
                 text-align: start;
             }
         }
-
         &_cards-container{
             background-color: $background;
             grid-template-columns: repeat(1, 1fr);
-            margin: 22px 0 27px 0;
             padding: 0;
             gap: 20px 0;
         }

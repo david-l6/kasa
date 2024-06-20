@@ -9,7 +9,17 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1024px) {
+    .about{
+        margin: 29px 60px;
+        &_content{
+            gap: 25px;
+            margin: 29px 0 0 0;
+        }
+    }
+}
+
+@media (max-width: 425px) {
     .about{
         margin: 19px 19.5px;
         &_content{

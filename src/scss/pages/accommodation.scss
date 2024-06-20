@@ -35,7 +35,32 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1024px) {
+  .accommodation {
+    margin: 39px 60px;
+    &_head {
+      &-title {
+        h1 {
+          font-size: 27px;
+        }
+        h2 {
+          margin-top: 8px;
+          font-size: 16px;
+        }
+      }
+      &-info {
+        gap: 13px;
+      }
+    }
+    &_content {
+      margin-top: 19px;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
   .accommodation {
     margin: 27px 20px;
     &_head {
@@ -58,8 +83,6 @@
     }
     &_content {
       margin-top: 13px;
-      grid-template-columns: 1fr;
-      gap: 20px;
     }
   }
 }

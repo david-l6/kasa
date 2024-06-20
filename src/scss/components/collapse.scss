@@ -48,7 +48,25 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1024px) {
+  .collapse {
+    &_title {
+      padding: 13px;
+      h2 {
+        font-size: 19px;
+      }
+      img {
+        width: 20px;
+      }
+    }
+    &_content {
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
   .collapse {
     &_title {
       padding: 10px;
