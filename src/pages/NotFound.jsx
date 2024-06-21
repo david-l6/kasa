@@ -5,7 +5,7 @@ export default function NotFound() {
     <main className="notfound">
       <h1>404</h1>
       <p>Oups! La page que vous demandez n&apos;existe pas.</p>
-      <NavLink to="/">Retourner sur la page d&apos;accueil</NavLink>
+      <NavLink to="/home">Retourner sur la page d&apos;accueil</NavLink>
     </main>
   );
 }
