@@ -23,9 +23,9 @@ const Slideshow = ({ images }) => {
         <>
           <img className="arrow arrowleft" src={arrowLeft} alt="Flèche gauche" onClick={previousSlide} />
           <img className="arrow arrowright" src={arrowRight} alt="Flèche droite" onClick={nextSlide} />
+          <p>{currentIndex + 1}/{images.length}</p>
         </>
       )}
-      <p>{currentIndex + 1}/{images.length}</p>
     </div>
   );
 };
